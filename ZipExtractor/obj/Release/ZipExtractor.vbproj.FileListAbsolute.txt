@@ -1,0 +1,11 @@
+C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\AutoUpdaterVB.NET\Resources\ZipExtractor.exe.config
+C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\AutoUpdaterVB.NET\Resources\ZipExtractor.exe
+C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\AutoUpdaterVB.NET\Resources\ZipExtractor.pdb
+C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\AutoUpdaterVB.NET\Resources\ZipExtractor.xml
+C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\ZipExtractor\obj\Release\ZipExtractor.ZipExtractor.FormMain.resources
+C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\ZipExtractor\obj\Release\ZipExtractor.Resources.resources
+C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\ZipExtractor\obj\Release\ZipExtractor.vbproj.GenerateResource.cache
+C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\ZipExtractor\obj\Release\ZipExtractor.vbproj.CoreCompileInputs.cache
+C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\ZipExtractor\obj\Release\ZipExtractor.exe
+C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\ZipExtractor\obj\Release\ZipExtractor.xml
+C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\ZipExtractor\obj\Release\ZipExtractor.pdb

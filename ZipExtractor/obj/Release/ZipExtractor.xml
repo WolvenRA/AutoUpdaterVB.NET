@@ -1,0 +1,50 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ZipExtractor
+</name>
+</assembly>
+<members>
+<member name="T:ZipExtractor.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ZipExtractor.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ZipExtractor.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:ZipExtractor.My.Resources.Resources.CurrentFileExtracting">
+<summary>
+  Looks up a localized string similar to Extracting {0}.
+</summary>
+</member>
+<member name="P:ZipExtractor.My.Resources.Resources.ZipExtractor">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ZipExtractor.My.Resources.Resources.ZipExtractor1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="M:ZipExtractor.ZipExtractor.ZipStorer.AddDirectory(ZipExtractor.ZipExtractor.ZipStorer.Compression,System.String,System.String,System.String)">
+ <summary>
+ Add full contents of a directory into the Zip storage
+ </summary>
+ <param name="_method">Compression method</param>
+ <param name="_pathname">Full path of directory to add to Zip storage</param>
+ <param name="_pathnameInZip">Path name as desired in Zip directory</param>
+ <param name="_comment">Comment for stored directory</param>
+</member>
+</members>
+</doc>
