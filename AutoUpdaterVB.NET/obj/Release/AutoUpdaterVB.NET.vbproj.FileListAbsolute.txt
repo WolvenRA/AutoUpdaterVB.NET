@@ -1,0 +1,14 @@
+C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\AutoUpdaterVB.NET\obj\Release\AutoUpdaterVB.NET.AutoUpdaterVBDotNET.DownloadUpdateDialog.resources
+C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\AutoUpdaterVB.NET\obj\Release\AutoUpdaterVB.NET.AutoUpdaterVBDotNET.FormMain.resources
+C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\AutoUpdaterVB.NET\obj\Release\AutoUpdaterVB.NET.AutoUpdaterVBDotNET.RemindLaterForm.resources
+C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\AutoUpdaterVB.NET\obj\Release\AutoUpdaterVB.NET.AutoUpdaterVBDotNET.UpdateForm.resources
+C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\AutoUpdaterVB.NET\obj\Release\AutoUpdaterVB.NET.vbproj.GenerateResource.cache
+C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\AutoUpdaterVB.NET\obj\Release\AutoUpdaterVB.NET.Resources.resources
+C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\AutoUpdaterVB.NET\obj\Release\AutoUpdaterVB.NET.vbproj.CoreCompileInputs.cache
+C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\AutoUpdaterVB.NET\bin\Release\AutoUpdaterVB.NET.exe.config
+C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\AutoUpdaterVB.NET\bin\Release\AutoUpdaterVB.NET.exe
+C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\AutoUpdaterVB.NET\bin\Release\AutoUpdaterVB.NET.pdb
+C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\AutoUpdaterVB.NET\bin\Release\AutoUpdaterVB.NET.xml
+C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\AutoUpdaterVB.NET\obj\Release\AutoUpdaterVB.NET.exe
+C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\AutoUpdaterVB.NET\obj\Release\AutoUpdaterVB.NET.xml
+C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\AutoUpdaterVB.NET\obj\Release\AutoUpdaterVB.NET.pdb
