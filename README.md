@@ -2,6 +2,8 @@
 
 AutoUpdaterVB.Net is a package that allows .Net developers to EASILY add auto update functionality to their software. 
 
+All it takes to implement the autoupdate functionality in your application is to add a few lines to your application start up, add a simple XML file onto a server, and then create a .zip file containing the executable's, dll's and whatever other files are needed for the update and post that .zip file onto a server so the autoupdater can download and install it.  
+
 This is basically a VB version of AutoUpdater.NET which is written in C#. The C# version is on github at ravibpatel/AutoUpdater.NET.
 This VB version was written with Visual Studio 2017 and requires .net framework 4.0 or higher.
 If you want to upgrade it to a later .net version, then I assume that you know how to do that.
@@ -21,7 +23,7 @@ whichever one you like.
 	
 ## How the application works.
 
-AutoUpdaterVB.NET downloads a XML file containing update information from your server. It uses this XML file to get the information about the latest version of the software. If the latest version of the software is greater than the current version of the software installed on User's PC then AutoUpdaterVB.NET shows an update dialog to the user. If user presses the update button to update the software then it downloads the update file (Installer) from the URL provided in the XML file and executes the installer file it just downloaded. It is the job of the installer after this point to carry out the update. If you provide a .zip file URL instead of an installer file, then AutoUpdaterVB.NET will extract the contents of .zip file to the application directory.
+AutoUpdaterVB.NET downloads a XML file containing update information from your server. It uses this XML file to get the information about the latest version of the software. If the latest version of the software is greater than the current version of the software installed on User's PC then AutoUpdaterVB.NET shows an update dialog to the user. If the user presses the update button to update the software then it downloads the update file (Installer) from the URL provided in the XML file and executes the installer file it just downloaded. It is the job of the installer after this point to carry out the update. If you provide a .zip file URL instead of an installer file, then AutoUpdaterVB.NET will extract the contents of .zip file to the application directory.
 It also has a number of properties that you can set to alter how the application works.  These are described below.
 
 
@@ -39,7 +41,7 @@ AutoUpdaterVB.NET uses a XML file (such as Version.xml) located on a server to g
 </item>
 ````
 
-There are two things you HAVE to provide in XML file you see above.
+There are two things you HAVE to provide in the XML file you see above.
 
 * version (Required) : You need to provide the latest version of the application between version tags. Version should be in X.X.X.X format.
 * url (Required): You need to provide the URL of the latest version installer file or zip file between url tags. AutoUpdaterVB.NET downloads the file provided here and installs it when user presses the Update button.
