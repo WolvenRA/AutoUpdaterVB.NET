@@ -56,7 +56,6 @@ Namespace ZipExtractor
       _logBuilder.AppendLine()
 
       If args.Length >= 4 Then
-        Dim executablePath As String = args(3)
 
         _backgroundWorker = New BackgroundWorker With {
           .WorkerReportsProgress = True,
@@ -82,8 +81,7 @@ Namespace ZipExtractor
             _logBuilder.AppendLine("BackgroundWorker started successfully.")
 '            labelInformation.Text = "BackgroundWorker started successfully."
 
-            Dim path = args(2)
-            Dim DirPath = System.IO.Path.GetDirectoryName(args(2))
+            Dim DirPath = System.IO.Path.GetDirectoryName(args(3))
             Dim zip As ZipStorer = ZipStorer.Open(args(1), FileAccess.Read)
             Dim dir As List(Of ZipStorer.ZipFileEntry) = zip.ReadCentralDir()
 
@@ -98,8 +96,7 @@ Namespace ZipExtractor
               End If
 
               Dim entry As ZipStorer.ZipFileEntry = dir(index)
-'              zip.ExtractFile(entry, System.IO.Path.Combine(DirPath, entry.FilenameInZip))
-              zip.ExtractFile(entry, System.IO.Path.Combine(path, entry.FilenameInZip))
+              zip.ExtractFile(entry, System.IO.Path.Combine(DirPath, entry.FilenameInZip))
 
               Dim currentFile As String = String.Format(My.Resources.CurrentFileExtracting, entry.FilenameInZip)
               Dim progress As Integer = (index + 1) * 100 / dir.Count
@@ -112,14 +109,12 @@ Namespace ZipExtractor
             zip.Close()
           End Sub
 
-        AddHandler _backgroundWorker.ProgressChanged, _
-        Sub(o, eventArgs)
+        AddHandler _backgroundWorker.ProgressChanged, Sub(o, eventArgs)
           progressBar.Value = eventArgs.ProgressPercentage
           labelInformation.Text = eventArgs.UserState.ToString()
         End Sub
 
-        AddHandler _backgroundWorker.RunWorkerCompleted, _
-        Sub(o, eventArgs)
+        AddHandler _backgroundWorker.RunWorkerCompleted,  Sub(o, eventArgs)
 
           Try
             If eventArgs.[Error] IsNot Nothing Then
@@ -130,8 +125,7 @@ Namespace ZipExtractor
               labelInformation.Text = "Finished"
 
               Try
-                '                Dim processStartInfo As ProcessStartInfo = New ProcessStartInfo(args(3))
-                Dim processStartInfo As ProcessStartInfo = New ProcessStartInfo(executablePath)
+                Dim processStartInfo As ProcessStartInfo = New ProcessStartInfo(args(3))
 
                 If args.Length > 4 Then
                   processStartInfo.Arguments = args(4)

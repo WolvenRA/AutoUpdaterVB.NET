@@ -12,3 +12,4 @@ C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\AutoUpdaterVB.NET\bin\Releas
 C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\AutoUpdaterVB.NET\obj\Release\AutoUpdaterVB.NET.exe
 C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\AutoUpdaterVB.NET\obj\Release\AutoUpdaterVB.NET.xml
 C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\AutoUpdaterVB.NET\obj\Release\AutoUpdaterVB.NET.pdb
+C:\Users\RA\Source\Repos\WolvenRA\AutoUpdaterVB.Net\AutoUpdaterVB.NET\obj\Release\AutoUpdaterVB.NET.vbprojAssemblyReference.cache

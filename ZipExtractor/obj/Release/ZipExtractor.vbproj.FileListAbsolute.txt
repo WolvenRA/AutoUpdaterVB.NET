@@ -9,3 +9,4 @@ C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\ZipExtractor\obj\Release\Zip
 C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\ZipExtractor\obj\Release\ZipExtractor.exe
 C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\ZipExtractor\obj\Release\ZipExtractor.xml
 C:\Users\RA\source\repos\WolvenRA\AutoUpdaterVB.NET\ZipExtractor\obj\Release\ZipExtractor.pdb
+C:\Users\RA\Source\Repos\WolvenRA\AutoUpdaterVB.Net\ZipExtractor\obj\Release\ZipExtractor.vbprojAssemblyReference.cache
